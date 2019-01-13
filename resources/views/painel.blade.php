@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Home</title>
+        <title>Painel</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
@@ -24,6 +24,7 @@
                 height: 100vh;
             }
 
+            
             .flex-center {
                 align-items: center;
                 display: flex;
@@ -47,10 +48,7 @@
             .title {
                 font-size: 84px;
             }
-            
-            .m-b-md {
-                margin-bottom: 30px;
-            }
+
         </style>
     </head>
     <body>
@@ -71,7 +69,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Home - Hello World!
+                    Painel
                 </div>
             </div>
         </div>
