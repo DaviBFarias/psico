@@ -12,7 +12,11 @@
 */
 
 Route::get('/', function () {
+<<<<<<< HEAD
     return view('home');
+=======
+    return view('login');
+>>>>>>> tela de login quase finalizada
 });
 
 Route::get('/anamneses', function () {
