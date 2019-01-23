@@ -1,4 +1,4 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -14,23 +14,7 @@
             background-color: #8ffbff;
         
         }
-        /*Codigo para deixar o Body com opacidade*/
-        body:before{
-            content: '';
-            position: fixed;
-            width: 100vw;
-            height: 100vh;
-            background-image: url("../css/Psicologia-Organizacional.jpg");
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-            -webkit-filter: blur(10px);
-            -moz-filter: blur(10px);
-            -o-filter: blur(10px);
-            -ms-filter: blur(10px);
-            filter: blur(10px);
-        }
+        
 
         form {
             position: absolute;
@@ -90,6 +74,7 @@
             width: 80px;
             text-align: center;
         }
+
         input#enviar:hover{
             background: linear-gradient(90deg, rgb(28, 191, 197), #6cf2f7,  rgb(28, 191, 197));
             -webkit-background: linear-gradient(90deg, rgb(28, 191, 197), #6cf2f7, rgb(28, 191, 197));
