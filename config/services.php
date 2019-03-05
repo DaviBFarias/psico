@@ -20,7 +20,6 @@ return [
         'endpoint' => env('MAILGUN_ENDPOINT', 'api.mailgun.net'),
     ],
 
-<<<<<<< HEAD
     'postmark' => [
         'token' => env('POSTMARK_TOKEN'),
     ],
@@ -29,12 +28,6 @@ return [
         'key' => env('AWS_ACCESS_KEY_ID'),
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
-=======
-    'ses' => [
-        'key' => env('SES_KEY'),
-        'secret' => env('SES_SECRET'),
-        'region' => env('SES_REGION', 'us-east-1'),
->>>>>>> e7f0400aa1ef4e6b254565c994cabbc587064dad
     ],
 
     'sparkpost' => [

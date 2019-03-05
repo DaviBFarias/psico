@@ -37,10 +37,7 @@ return [
         'stack' => [
             'driver' => 'stack',
             'channels' => ['daily'],
-<<<<<<< HEAD
             'ignore_exceptions' => false,
-=======
->>>>>>> e7f0400aa1ef4e6b254565c994cabbc587064dad
         ],
 
         'single' => [

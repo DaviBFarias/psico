@@ -12,13 +12,9 @@ return [
     | This option controls the default cache connection that gets used while
     | using this caching library. This connection is used when another is
     | not explicitly specified when executing a given caching function.
-    |
-<<<<<<< HEAD
     | Supported: "apc", "array", "database", "file",
     |            "memcached", "redis", "dynamodb"
-=======
     | Supported: "apc", "array", "database", "file", "memcached", "redis"
->>>>>>> e7f0400aa1ef4e6b254565c994cabbc587064dad
     |
     */
 
@@ -80,7 +76,6 @@ return [
             'connection' => 'cache',
         ],
 
-<<<<<<< HEAD
         'dynamodb' => [
             'driver' => 'dynamodb',
             'key' => env('AWS_ACCESS_KEY_ID'),
@@ -89,8 +84,6 @@ return [
             'table' => env('DYNAMODB_CACHE_TABLE', 'cache'),
         ],
 
-=======
->>>>>>> e7f0400aa1ef4e6b254565c994cabbc587064dad
     ],
 
     /*

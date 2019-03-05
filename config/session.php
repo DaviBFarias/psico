@@ -14,11 +14,7 @@ return [
     | you may specify any of the other wonderful drivers provided here.
     |
     | Supported: "file", "cookie", "database", "apc",
-<<<<<<< HEAD
     |            "memcached", "redis", "dynamodb", "array"
-=======
-    |            "memcached", "redis", "array"
->>>>>>> e7f0400aa1ef4e6b254565c994cabbc587064dad
     |
     */
 
