@@ -44,10 +44,7 @@ return [
         'api' => [
             'driver' => 'token',
             'provider' => 'users',
-<<<<<<< HEAD
             'hash' => false,
-=======
->>>>>>> e7f0400aa1ef4e6b254565c994cabbc587064dad
         ],
     ],
 
