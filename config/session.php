@@ -14,7 +14,11 @@ return [
     | you may specify any of the other wonderful drivers provided here.
     |
     | Supported: "file", "cookie", "database", "apc",
+<<<<<<< HEAD
     |            "memcached", "redis", "dynamodb", "array"
+=======
+    |            "memcached", "redis", "array"
+>>>>>>> e7f0400aa1ef4e6b254565c994cabbc587064dad
     |
     */
 
@@ -92,9 +96,15 @@ return [
     | Session Cache Store
     |--------------------------------------------------------------------------
     |
+<<<<<<< HEAD
     | When using the "apc", "memcached", or "dynamodb" session drivers you may
     | list a cache store that should be used for these sessions. This value
     | must match with one of the application's configured cache "stores".
+=======
+    | When using the "apc" or "memcached" session drivers, you may specify a
+    | cache store that should be used for these sessions. This value must
+    | correspond with one of the application's configured cache stores.
+>>>>>>> e7f0400aa1ef4e6b254565c994cabbc587064dad
     |
     */
 

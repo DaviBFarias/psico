@@ -27,6 +27,7 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+<<<<<<< HEAD
 
     /**
      * The attributes that should be cast to native types.
@@ -36,4 +37,6 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+=======
+>>>>>>> e7f0400aa1ef4e6b254565c994cabbc587064dad
 }
