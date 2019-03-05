@@ -12,17 +12,29 @@
 */
 
 Route::get('/', function () {
-<<<<<<< HEAD
-    return view('welcome');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    return view('home');
-=======
     return view('login');
->>>>>>> tela de login quase finalizada
-=======
-    return view('login');
->>>>>>> 88486f25db85e2bc0eaef873fe7d88733604d068
->>>>>>> e7f0400aa1ef4e6b254565c994cabbc587064dad
+});
+
+Route::get('/anamneses', function () {
+    return view('anamneses');
+});
+
+Route::get('/funcionarios', function () {
+    return view('funcionarios');
+});
+
+Route::get('/pacientes', function () {
+    return view('pacientes');
+});
+
+Route::get('/painel', function () {
+    return view('painel');
+});
+
+Route::get('/entrar', function () {
+    return view('entrar');
+});
+
+Route::get('/registrar', function () {
+    return view('registrar');
 });
