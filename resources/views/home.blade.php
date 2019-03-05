@@ -91,7 +91,12 @@
         <header>
             <nav>
                 <ul>
-                    <li><a>IDIOMA</a></li>
+                    <li><a>IDIOMA</a>
+                        <ul>
+                            <li><a>ENGLISH</a></li>
+                            <li><a>ESPAÑOL</a></li>
+                        </ul>
+                    </li>
                     <li><a>SAIR</a></li>
                 </ul>
             </nav>
@@ -100,7 +105,9 @@
             <nav>
                 <ul>
                     <li><a>CADASTRO</a></li>
-                    
+                    <li><a>ANAMNESE</a></li>
+                    <li><a>RELATORIOS</a></li>
+                    <li><a>SAIR</a></li>    
                 </ul>
             </nav>
         </header>
