@@ -191,10 +191,7 @@ return [
     'aliases' => [
 
         'App' => Illuminate\Support\Facades\App::class,
-<<<<<<< HEAD
         'Arr' => Illuminate\Support\Arr::class,
-=======
->>>>>>> e7f0400aa1ef4e6b254565c994cabbc587064dad
         'Artisan' => Illuminate\Support\Facades\Artisan::class,
         'Auth' => Illuminate\Support\Facades\Auth::class,
         'Blade' => Illuminate\Support\Facades\Blade::class,
@@ -224,14 +221,10 @@ return [
         'Schema' => Illuminate\Support\Facades\Schema::class,
         'Session' => Illuminate\Support\Facades\Session::class,
         'Storage' => Illuminate\Support\Facades\Storage::class,
-<<<<<<< HEAD
         'Str' => Illuminate\Support\Str::class,
-=======
->>>>>>> e7f0400aa1ef4e6b254565c994cabbc587064dad
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
     ],
 
 ];
