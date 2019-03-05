@@ -13,32 +13,12 @@
 
 Route::get('/', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
     return view('home');
 =======
     return view('login');
 >>>>>>> tela de login quase finalizada
-});
-
-Route::get('/anamneses', function () {
-    return view('anamneses');
-});
-
-Route::get('/funcionarios', function () {
-    return view('funcionarios');
-});
-
-Route::get('/pacientes', function () {
-    return view('pacientes');
-});
-
-Route::get('/painel', function () {
-    return view('painel');
-});
-
-Route::get('/entrar', function () {
-    return view('entrar');
-});
-
-Route::get('/registrar', function () {
-    return view('registrar');
+=======
+    return view('login');
+>>>>>>> 88486f25db85e2bc0eaef873fe7d88733604d068
 });

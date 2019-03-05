@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -79,6 +80,8 @@
         </div>
     </body>
 =======
+=======
+>>>>>>> 88486f25db85e2bc0eaef873fe7d88733604d068
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -115,5 +118,8 @@
         </header>
     </div>
 </body>
+<<<<<<< HEAD
 >>>>>>> Inicio do Home
+=======
+>>>>>>> 88486f25db85e2bc0eaef873fe7d88733604d068
 </html>
