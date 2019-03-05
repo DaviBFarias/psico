@@ -13,7 +13,7 @@
 
 Route::get('/', function () {
     return view('login');
-});cls
+});
 
 Route::get('/anamneses', function () {
     return view('anamneses');
