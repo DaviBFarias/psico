@@ -1,0 +1,108 @@
+@charset "utf-8";
+body{
+  margin: 0px;
+  padding: 0PX;
+}
+*{
+  box-sizing: border-box;
+}
+
+/* MENU HORIZONTAL */
+
+header{
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+}
+
+header{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position: absolute;
+}
+
+header li{
+  list-style: none;
+ 
+}
+
+header a{
+  background-color: aqua;
+  color: black;
+  text-decoration: none;
+  float: left;
+  width: 22%;
+  text-align: center;
+  padding: 20px;
+}
+
+header a:hover{
+  background-color: white;
+  color: black;
+}
+
+/* MENU VERTIVAL*/
+aside{
+  float: left;
+  width: 26%;
+  overflow: hidden;
+}
+
+aside li{
+  list-style: none;
+}
+
+aside a{
+  background-color: aqua;
+  color: black;
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+}
+
+aside a:hover{
+  background-color: white;
+  color: black;
+} 
+
+/* -----------------------------*/
+
+/*Style for dropdown links*/
+li:hover ul a {
+  background: #f3f3f3;
+  color: #2f3036;
+  height: 40px;
+  line-height: 40px;
+}
+/*Hover state for dropdown links*/
+li:hover ul a:hover {
+  background: #19c589;
+  color: #fff;
+}
+
+/*Hover state for top level links*/
+li:hover a {
+  background: #19a3c5;
+}
+
+
+/*Hide dropdown links until they are needed*/
+li ul {
+  display: none;
+}
+/*Make dropdown links vertical*/
+li ul li {
+  display: block;
+  float: none;
+}
+/*Prevent text wrapping*/
+li ul li a {
+  width: auto;
+  min-width: 100px;
+  padding: 0 20px;
+}
+/*Display the dropdown on hover*/
+ul li a:hover + .hidden, .hidden:hover {
+  display: block;
+}

@@ -4,39 +4,41 @@
     <meta charset="utf-8" />
     <title>HOME</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/normalize.css">
-    
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/home.css"/>
 </head>
 <body>
     <div class="interface">
         <header>
-            <nav>
+            <nav class="nav_top">
                 <ul>
-                    <li><a>NOTIFICAÇÃO</a></li>
-                    <li><a>INFORMAÇÃO DO USUÁRIO</a></li>
-                    <li><a>IDIOMA</a>
+                    <li><a href="#">NOTIFICAÇÃO</a></li>
+                    <li><a href="#">INFORMAÇÃO DO USUÁRIO</a></li>
+                    <li><a href="#">IDIOMA</a>
                         <ul>
-                            <li><a>ENGLISH</a></li>
-                            <li><a>ESPAÑOL</a></li>
+                            <li><a href="#">ENGLISH</a></li>
+                            <li><a href="#">ESPAÑOL</a></li>
+                            <li><a href="#">PORTUGUÊS-BR</a></li>
+                            <li><a href="#">PORTUGUÊS-PT</a></li>
                         </ul>
                     </li>
-                    <li><a>SAIR</a></li>
+                    <li><a href="login.blade.php">SAIR</a></li>
                 </ul>
             </nav>
         </header>
-        <header>
+        <aside>
             <nav>
                 <ul>
-                    <li><a>AGENDA</a></li>
-                    <li><a>ANAMNESES</a></li>
-                    <li><a>CONSULTAS</a></li>
-                    <li><a>FINANCEIRO</a></li>
-                    <li><a>FUNCIONÁRIOS</a></li>
-                    <li><a>PACIENTES</a></li>
-                    <li><a>SAIR</a></li>    
+                    <li><a href="#">AGENDA</a></li>
+                    <li><a href="anamneses.blade.php">ANAMNESES</a></li>
+                    <li><a href="#">CONSULTAS</a></li>
+                    <li><a href="#">FINANCEIRO</a></li>
+                    <li><a href="#">FUNCIONÁRIOS</a></li>
+                    <li><a href="#">PACIENTES</a></li>
+                    <li><a href="#">SAIR</a></li>
                 </ul>
             </nav>
-        </header>
+        </aside>
     </div>
 </body>
 
