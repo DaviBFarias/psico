@@ -2,11 +2,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
-<<<<<<< HEAD
                 <div class="card">
-=======
-                <div class="card card-default">
->>>>>>> e7f0400aa1ef4e6b254565c994cabbc587064dad
                     <div class="card-header">Example Component</div>
 
                     <div class="card-body">
