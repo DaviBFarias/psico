@@ -22,7 +22,7 @@
                             <li><a href="#">PORTUGUÊS-PT</a></li>
                         </ul>
                     </li>
-                    <li><a href="login.blade.php">SAIR</a></li>
+                    <li><a href="login">SAIR</a></li>
                 </ul>
             </nav>
         </header>
@@ -30,12 +30,12 @@
             <nav>
                 <ul>
                     <li><a href="#">AGENDA</a></li>
-                    <li><a href="anamneses.blade.php">ANAMNESES</a></li>
+                    <li><a href="anamneses">ANAMNESES</a></li>
                     <li><a href="#">CONSULTAS</a></li>
                     <li><a href="#">FINANCEIRO</a></li>
                     <li><a href="#">FUNCIONÁRIOS</a></li>
                     <li><a href="#">PACIENTES</a></li>
-                    <li><a href="#">SAIR</a></li>
+                    <li><a href="login">SAIR</a></li>
                 </ul>
             </nav>
         </aside>

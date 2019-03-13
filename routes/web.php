@@ -11,8 +11,13 @@
 |
 */
 
+//Chamada de views
 Route::get('/', function () {
     return view('login');
+});
+
+Route::get('/home', function () {
+    return view('home');
 });
 
 Route::get('/anamneses', function () {
@@ -38,3 +43,9 @@ Route::get('/entrar', function () {
 Route::get('/registrar', function () {
     return view('registrar');
 });
+
+
+//Chamadas de Controllers
+Route::post('/logar',[
+    'uses' => 'LoginController@validarLogin'
+]);

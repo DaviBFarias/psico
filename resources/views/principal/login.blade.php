@@ -85,11 +85,12 @@
 
 <body>
     <div class="tela">
-        <form>
+        <form action="/logar" method="post">
+            {{csrf_field()}}
             <fieldset>
                 <legend>LOGIN</legend>
-                <label for="nome" class="title">USUÁRIO:</label><input type="text" id="nome" size="40" placeholder="Digite seu usuário..."/><br /><br/>
-                <label for="senha" class="title">SENHA:</label><input type="password" id="senha" size="40" placeholder="Digite sua senha..."/><br /><br/>
+                <label for="nome" class="title">USUÁRIO:</label><input type="text" id="nome" name="nome" size="40" placeholder="Digite seu usuário..."/><br /><br/>
+                <label for="senha" class="title">SENHA:</label><input type="password" id="senha" name="senha" size="40" placeholder="Digite sua senha..."/><br /><br/>
                 <input type="submit" value="Acessar" id="enviar" />
             </fieldset>
         </form>
